@@ -1,0 +1,149 @@
+/* Обнуление стилей и базовые стили */
+body,
+h1,
+h2,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.product {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    max-width: 300px;
+}
+
+.price {
+    font-weight: bold;
+    color: #e44d26;
+}
+
+button {
+    background-color: #e44d26;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+/* Container holding the image and the text */
+.heading {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+
+.heading-title {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: white;
+    background-color: black;
+    padding: 5px 40px;
+    -webkit-box-shadow: 6px 6px 28px -8px rgba(0, 0, 0, 0.73);
+    -moz-box-shadow: 6px 6px 28px -8px rgba(0, 0, 0, 0.73);
+    box-shadow: 6px 6px 28px -8px rgba(0, 0, 0, 0.73);
+    border-radius: 68px 68px 68px 68px;
+    -moz-border-radius: 68px 68px 68px 68px;
+    -webkit-border-radius: 68px 68px 68px 68px;
+    border: 0px solid black;
+}
+
+.about-me {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: white;
+}
+
+.telegram {
+    position: absolute;
+    top: 90.7%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: white;
+
+}
+
+.telegram-link {
+    text-decoration: none;
+    color: white;
+}
+
+.tiktok {
+    position: absolute;
+    top: 91%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    color: white;
+}
+
+.discord {
+    position: absolute;
+    top: 91%;
+    left: 51.2%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    color: white;
+}
+
+.music {
+    position: absolute;
+    top: 91%;
+    left: 54.2%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    color: white;
+}
